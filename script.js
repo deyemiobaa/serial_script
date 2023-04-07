@@ -1,5 +1,5 @@
-import SerialPort from 'serialport';
-import Readline from '@serialport/parser-readline';
+const SerialPort = require('serialport');
+const Readline = require('@serialport/parser-readline');
 
 // Define the serial port and baud rate
 const port = new SerialPort('/dev/ttyAMA0', {
